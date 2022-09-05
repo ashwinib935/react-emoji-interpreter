@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+input {
+  width: 30rem;
+  height: 5rem;
+  margin: auto;
+}
+
+span {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  input {
+    width: 15rem;
+    height: 3rem;
+    margin: auto;
+  }
+}
